@@ -33,8 +33,9 @@ const co = function (fn) {
                 })
             })
         }
-        if( typeof promise.then !== 'function' )
-        promise = Promise.resolve(promise)
+
+        if (typeof (promise?promise.then : null) !== 'function')
+            promise = Promise.resolve(promise)
         return promise
     }
 }
