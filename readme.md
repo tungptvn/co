@@ -1,5 +1,9 @@
 # coroutine
 
+## install
+
+`npm insall tungptvn/co`
+
 ## use
 
 ```javascript
