@@ -4,12 +4,15 @@
   "description": "simple  coroutine implementation in javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo test"
+    "test": "mocha"
   },
   "keywords": [
     "coroutine",
     "javascript"
   ],
   "author": "Tung Pham <tungpt.hd@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
 }

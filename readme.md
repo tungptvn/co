@@ -2,7 +2,7 @@
 
 ## install
 
-`npm insall tungptvn/co`
+`npm i tungptvn/co`
 
 ## use
 
@@ -39,3 +39,6 @@ co(function* () {
     }
 })
 ```
+
+## test
+'npm test'
