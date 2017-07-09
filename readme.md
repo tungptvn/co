@@ -7,7 +7,7 @@
 ## use
 
 ```javascript
-const co = require('./')
+const co = require('co')
 const fs = require('fs')
 
 co(function* () {
